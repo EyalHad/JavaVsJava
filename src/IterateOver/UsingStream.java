@@ -15,5 +15,6 @@ public class UsingStream {
             Testing.sumDouble = Arrays.stream(Testing.arrDouble).sum();
 
         }
+
     }
 }

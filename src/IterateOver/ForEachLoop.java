@@ -9,13 +9,9 @@ public class ForEachLoop {
         Testing.init();
 
         for (int times = 0; times < Testing.SIZE; times++) {
-            for (int i : Testing.arrInt) {
-                Testing.sumInt += i;
-            }
+            for (int i : Testing.arrInt) {Testing.sumInt += i;}
             for (long i : Testing.arrLong) {Testing.sumLong += i;}
             for (double i : Testing.arrDouble) {Testing.sumDouble += i;}
-
-
 
         }
     }

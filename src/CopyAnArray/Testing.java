@@ -2,7 +2,7 @@ package CopyAnArray;
 
 public class Testing {
 
-    public final static int SIZE = 100000;
+    public final static int SIZE = 100_000;
 
     // ---byte type---
     public static byte[] arrByte = new byte[SIZE];
