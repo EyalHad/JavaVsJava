@@ -1,6 +1,7 @@
 package StreamTesting;
 
 import java.util.List;
+@SuppressWarnings("ALL")
 
 public class StreamReduce {
 
