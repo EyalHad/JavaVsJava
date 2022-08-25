@@ -9,9 +9,9 @@ public class StreamCollect {
 
     public static void start(List<Employee> employees){
 
-        long integer = employees.stream()
-                .map(employee -> (int) employee.age)
-                .collect(Collectors.summingInt(Integer::intValue));
+        double integer = employees.stream()
+                .map(employee -> employee.age)
+                .collect(Collectors.summingDouble(Double::doubleValue));
 
 
     }

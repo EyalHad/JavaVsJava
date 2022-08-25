@@ -7,9 +7,9 @@ public class StreamReduce {
 
     public static void start(List<Employee> employees){
 
-        long integer = employees.stream()
-                .map(employee -> (int) employee.age)
-                .reduce(0, (a, b) -> a + b);
+        double integer = employees.stream()
+                .map(employee -> employee.age)
+                .reduce(0.0, (a, b) -> a + b);
 
     }
 }
