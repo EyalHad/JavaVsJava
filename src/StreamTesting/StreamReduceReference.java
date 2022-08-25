@@ -8,9 +8,9 @@ public class StreamReduceReference {
 
     public static void start(List<Employee> employees){
 
-        long integer = employees.stream()
-                .map(employee -> (int) employee.age)
-                .reduce(0, Integer::sum);
+        double integer = employees.stream()
+                .map(employee -> employee.age)
+                .reduce(0.0, Double::sum);
 
     }
 }

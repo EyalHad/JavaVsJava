@@ -6,8 +6,8 @@ public class StreamSum {
 
     public static void start(List<Employee> employees){
 
-        long integer = employees.stream()
-                .mapToInt(employee -> (int) employee.age)
+        double integer = employees.stream()
+                .mapToDouble(employee -> employee.age)
                 .sum();
 
     }
