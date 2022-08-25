@@ -32,7 +32,8 @@ However, it cannot be used to create new programs.
 It has everything the JRE has, but also the compiler (javac) and tools (like javadoc and jdb).
 It is capable of creating and compiling programs.
 
-![img.png](img.png)
+![Description of Java](img.png#gh-light-mode-only)
+![Description of Java](imgDarkmode.png#gh-dark-mode-only)
 
 ---
 
