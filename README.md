@@ -32,8 +32,8 @@ However, it cannot be used to create new programs.
 It has everything the JRE has, but also the compiler (javac) and tools (like javadoc and jdb).
 It is capable of creating and compiling programs.
 
-![Description of Java](img.png#gh-light-mode-only)
-![Description of Java](imgDarkmode.png#gh-dark-mode-only)
+![Description of Java](readme-images/img.png#gh-light-mode-only)
+![Description of Java](readme-images/imgDarkmode.png#gh-dark-mode-only)
 
 ---
 
@@ -43,6 +43,6 @@ It is capable of creating and compiling programs.
 >YourKit supports open source projects with innovative and intelligent tools for monitoring and profiling Java and .NET applications.
 YourKit is the creator of <a href="https://www.yourkit.com/java/profiler/">YourKit Java Profiler</a>, <a href="https://www.yourkit.com/.net/profiler/">YourKit .NET Profiler</a>, and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
 
->![img.png](yklogo.png)
+>![img.png](readme-images/yklogo.png)
 
 ---
