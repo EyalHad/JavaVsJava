@@ -3,6 +3,7 @@ package RecordVsClass;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ClassClass {
 
@@ -67,6 +68,19 @@ public class ClassClass {
 
         public void setIdNumber(long idNumber) {
             this.idNumber = idNumber;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            ThisIsClass that = (ThisIsClass) o;
+            return Double.compare(that.age, age) == 0 && idNumber == that.idNumber && firstName.equals(that.firstName) && lastName.equals(that.lastName);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(firstName, lastName, age, idNumber);
         }
     }
 
