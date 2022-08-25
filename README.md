@@ -6,6 +6,7 @@
 While researching on the subject we came a cross few researches which did a benchmarking test between Java and C language, and it is not hard to guess which will perform better but still, it curios to find by how much, also since Kotlin came to replace Java at Android app development we also found a comparison between these two, and this is interesting since one came to replace another, the result from the paper were – “ The differences are in fact usually not very substantial, however, a common trend of Kotlin always being out-performed by Java is observed, even if that is not by a very big factor in the vast majority of benchmarks “
 When comparing two different programing languages, you will choose the best and most efficient way to implement the program in each language, and the result will decide which programing language will win in this contest.
 But how you will know you chose the best approach to implement this ?*
+
 ---
 
 ###### We are trying to figure out what is the best approach to do something since there are various ways of doing it.
